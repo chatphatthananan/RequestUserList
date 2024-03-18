@@ -1,0 +1,65 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230115073004
+Username: GFK\sgtamdp
+RunAs User: GFK\sgtamdp
+Machine: DCPW-FSSGTAM01 (Microsoft Windows NT 10.0.14393.0)
+Host Application: PowerShell -NoProfile -ExecutionPolicy Bypass -Command & {& '.\RequestUserList.ps1'}
+Process ID: 19376
+PSVersion: 5.1.14393.5127
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.5127
+BuildVersion: 10.0.14393.5127
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SGTAM_DP\Working Project\RequestUserList\Log\RequestUserList_log_2023-01-15 073004.log
+Insert into tLog and retrieve logID
+INFO: Retrieving user lists and exporting to excels.
+0
+0
+True
+1
+1
+True
+2
+2
+True
+3
+3
+True
+4
+4
+True
+5
+5
+True
+6
+6
+True
+7
+7
+True
+8
+8
+True
+9
+9
+True
+10
+10
+True
+11
+11
+True
+Skipping Discovery.
+WARNING: Error in retrieving users from SGTAMProd or error in exporting to excel, please check.
+Sending Exception email
+Error email sent!
+Updating tLog logID: 3cf6fbf5-0cbb-4378-b215-c5f03d643463 with status: 2
+**********************
+Windows PowerShell transcript end
+End time: 20230115073059
+**********************

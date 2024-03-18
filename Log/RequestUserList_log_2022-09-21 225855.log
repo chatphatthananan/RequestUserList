@@ -1,0 +1,93 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220921225855
+Username: GFK\sgtamdp
+RunAs User: GFK\sgtamdp
+Machine: DCPW-FSSGTAM01 (Microsoft Windows NT 10.0.14393.0)
+Host Application: PowerShell -NoProfile -ExecutionPolicy Bypass -Command & {& '.\RequestUserList.ps1'}
+Process ID: 3672
+PSVersion: 5.1.14393.5066
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.5066
+BuildVersion: 10.0.14393.5066
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SGTAM_DP\Working Project\RequestUserList\Log\RequestUserList_log_2022-09-21 225855.log
+Insert into tLog and retrieve logID
+INFO: Retrieving user lists and exporting to excels.
+0
+0
+True
+1
+1
+True
+2
+2
+True
+3
+3
+True
+4
+4
+True
+5
+5
+True
+6
+6
+True
+7
+7
+True
+8
+8
+True
+9
+9
+True
+10
+10
+True
+11
+11
+True
+Skipping Discovery.
+12
+12
+True
+13
+13
+True
+14
+14
+True
+15
+15
+True
+16
+16
+True
+17
+17
+True
+18
+18
+True
+19
+19
+True
+20
+20
+True
+0
+-1
+PS>TerminatingError(Send-MailMessage): "The process cannot access the file 'D:\SGTAM_DP\Working Project\RequestUserList\Output\GroupM.xlsx' because it is being used by another process."
+WARNING: The process cannot access the file 'D:\SGTAM_DP\Working Project\RequestUserList\Output\GroupM.xlsx' because it is being used by another process.
+Updating tLog logID: 9bf249b4-5671-4475-9a87-5ad1c8a3faf4 with status: 3
+**********************
+Windows PowerShell transcript end
+End time: 20220921230004
+**********************

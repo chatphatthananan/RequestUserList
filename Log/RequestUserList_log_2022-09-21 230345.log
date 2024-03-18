@@ -1,0 +1,113 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220921230345
+Username: GFK\sgtamdp
+RunAs User: GFK\sgtamdp
+Machine: DCPW-FSSGTAM01 (Microsoft Windows NT 10.0.14393.0)
+Host Application: PowerShell -NoProfile -ExecutionPolicy Bypass -Command & {& '.\RequestUserList.ps1'}
+Process ID: 15756
+PSVersion: 5.1.14393.5066
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.5066
+BuildVersion: 10.0.14393.5066
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SGTAM_DP\Working Project\RequestUserList\Log\RequestUserList_log_2022-09-21 230345.log
+Insert into tLog and retrieve logID
+INFO: Retrieving user lists and exporting to excels.
+0
+0
+True
+1
+1
+True
+2
+2
+True
+3
+3
+True
+4
+4
+True
+5
+5
+True
+6
+6
+True
+7
+7
+True
+8
+8
+True
+9
+9
+True
+10
+10
+True
+11
+11
+True
+Skipping Discovery.
+12
+12
+True
+13
+13
+True
+14
+14
+True
+15
+15
+True
+16
+16
+True
+17
+17
+True
+18
+18
+True
+19
+19
+True
+20
+20
+True
+0
+-1
+Successfully sent email to GroupM.
+Successfully sent email to Mediacorp CIA.
+Successfully sent email to Singtel.
+Successfully sent email to StarCom.
+Successfully sent email to Dentsu.
+Successfully sent email to Havas.
+Successfully sent email to IPG.
+Successfully sent email to Mediacom.
+Successfully sent email to Mindshare.
+Successfully sent email to OMD.
+Successfully sent email to Zenith.
+Successfully sent email to Hakuhodo.
+Successfully sent email to Disney/Fox SG.
+Successfully sent email to Mediacorp Other.
+Successfully sent email to IMDA.
+Successfully sent email to MCI.
+Successfully sent email to Wavemaker.
+Successfully sent email to Asia Today.
+Successfully sent email to Spark Foundry.
+Successfully sent email to BBC.
+Successfully sent email to ABN CBS.
+Request User List completed succesfully
+Updating tLog logID: dac33f12-9419-45ac-a5e2-00f8c8b41342 with status: 1
+**********************
+Windows PowerShell transcript end
+End time: 20220921230527
+**********************

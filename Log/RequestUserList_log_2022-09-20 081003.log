@@ -1,0 +1,35 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220920081003
+Username: GFK\sgtamdp
+RunAs User: GFK\sgtamdp
+Machine: DCPW-FSSGTAM01 (Microsoft Windows NT 10.0.14393.0)
+Host Application: PowerShell -NoProfile -ExecutionPolicy Bypass -Command & {& '.\RequestUserList.ps1'}
+Process ID: 4316
+PSVersion: 5.1.14393.5066
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.5066
+BuildVersion: 10.0.14393.5066
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SGTAM_DP\Working Project\RequestUserList\Log\RequestUserList_log_2022-09-20 081003.log
+Insert into tLog and retrieve logID
+WARNING: Exception calling "Open" with "0" argument(s): "Login failed for user 'snchat'."
+INFO: Retrieving user lists and exporting to excels.
+WARNING: Exception calling "Open" with "0" argument(s): "Login failed for user 'snchat'."
+0
+0
+WARNING: Exception calling "Open" with "0" argument(s): "Login failed for user 'snchat'."
+WARNING: Error in retrieving users from SGTAMProd or error in exporting to excel, please check.
+Sending Exception email
+Error email sent!
+Updating tLog logID:  with status: 2
+WARNING: Exception calling "Open" with "0" argument(s): "Login failed for user 'snchat'."
+False
+**********************
+Windows PowerShell transcript end
+End time: 20220920081008
+**********************
